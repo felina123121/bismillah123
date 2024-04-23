@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.form{
+    position: relative;
+    display: grid;
+}
+body{
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #091921;
+    display: flex;
+}
+.value{
+    grid-column: span 4;
+    width: 240px;
+    height: 80px;
+    text-align: right;
+    padding: 10px;
+    font-size: 25px;
+}
+span{
+    height: 60px;
+    width: 60px;
+    background-color: #0c2835;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,1);
+    display: grid;
+    place-content: center;
+}
+.kurung1{
+    height: 30px;
+    width: 30px;
+}
+.kurung2{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0px;
+    top: 260px;
+}
+.clear{
+    background-color: blue;
+}
+.equal{
+    height: 90px;
+    margin-top: -30px;
+    background-color: red;
+    grid-row: span 2;
+}
